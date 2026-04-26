@@ -56,5 +56,3 @@ export const metadata: Metadata = {
     google: 'YOUR_GOOGLE_VERIFICATION_CODE',
   },
 }
-
-export { default } from './_home'
