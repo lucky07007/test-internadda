@@ -4,84 +4,126 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Vibrant Educational Theme - Internshala Inspired */
-  --background: oklch(0.99 0 0); /* Pure White */
-  --foreground: oklch(0.20 0 0); /* Dark slate for high contrast */
+  /* Professional Global Platform Theme - InternAdda */
+  /* Color Philosophy: Trust, Professionalism, Global Appeal */
+  
+  --background: oklch(0.99 0.001 260); /* Clean white with subtle blue undertone */
+  --foreground: oklch(0.18 0.002 260); /* Deep navy-slate for premium readability */
   
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.20 0 0);
+  --card-foreground: oklch(0.18 0.002 260);
   
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.20 0 0);
+  --popover-foreground: oklch(0.18 0.002 260);
   
-  /* Primary - Vibrant Sky Blue */
-  --primary: oklch(0.65 0.16 240); /* #00A5EC equivalent */
+  /* Primary - Trusted Professional Blue with Indigo depth */
+  --primary: oklch(0.55 0.18 255); /* #2563EB - Corporate Blue */
   --primary-foreground: oklch(1 0 0);
   
-  /* Secondary - Soft light blue for backgrounds */
-  --secondary: oklch(0.96 0.02 240); 
-  --secondary-foreground: oklch(0.45 0.16 240); 
+  /* Secondary - Soft Professional Gray-Blue */
+  --secondary: oklch(0.96 0.008 260); 
+  --secondary-foreground: oklch(0.35 0.15 255); 
   
-  /* Muted - Grays */
-  --muted: oklch(0.96 0 0);
-  --muted-foreground: oklch(0.55 0 0);
+  /* Muted - Refined Grays */
+  --muted: oklch(0.955 0.003 260);
+  --muted-foreground: oklch(0.50 0.005 260);
   
-  --accent: oklch(0.96 0.02 240);
-  --accent-foreground: oklch(0.45 0.16 240);
+  /* Accent - Subtle Indigo for depth */
+  --accent: oklch(0.94 0.02 260);
+  --accent-foreground: oklch(0.35 0.15 255);
   
-  /* Destructive/Alerts */
-  --destructive: oklch(0.60 0.20 20);
+  /* Success - Professional Emerald */
+  --success: oklch(0.65 0.18 150);
+  --success-foreground: oklch(1 0 0);
+  
+  /* Warning - Refined Amber */
+  --warning: oklch(0.75 0.16 75);
+  --warning-foreground: oklch(0.2 0.02 75);
+  
+  /* Destructive - Professional Red */
+  --destructive: oklch(0.55 0.20 15);
   --destructive-foreground: oklch(1 0 0);
   
   /* Borders and Rings */
-  --border: oklch(0.92 0 0);
-  --input: oklch(0.92 0 0);
-  --ring: oklch(0.65 0.16 240);
+  --border: oklch(0.90 0.005 260);
+  --input: oklch(0.90 0.005 260);
+  --ring: oklch(0.55 0.18 255);
   
-  /* Chart Colors */
-  --chart-1: oklch(0.65 0.16 240);
-  --chart-2: oklch(0.75 0.15 150);
-  --chart-3: oklch(0.85 0.20 75);
-  --chart-4: oklch(0.60 0.18 335);
-  --chart-5: oklch(0.50 0.20 285);
+  /* Professional Chart Colors - Data Visualization */
+  --chart-1: oklch(0.55 0.18 255); /* Primary Blue */
+  --chart-2: oklch(0.65 0.18 150); /* Emerald */
+  --chart-3: oklch(0.70 0.18 45);  /* Amber/Gold */
+  --chart-4: oklch(0.55 0.18 320); /* Magenta */
+  --chart-5: oklch(0.50 0.18 285); /* Purple */
   
-  --radius: 0.75rem; /* softer, friendlier corners */
+  /* Border Radius - Professional rounded corners */
+  --radius: 0.625rem; /* 10px - Professional yet approachable */
+  
+  /* Typography Scale - Professional Hierarchy */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  
+  /* Spacing System */
+  --spacing-unit: 0.25rem;
+  
+  /* Shadows - Professional Depth */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.04), 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.03);
 }
 
 .dark {
-  --background: oklch(0.15 0.04 240); /* deep dark blue/gray */
-  --foreground: oklch(0.98 0 0); /* almost white but soft */
+  /* Dark Mode - Professional Deep Theme */
+  --background: oklch(0.13 0.015 260); /* Deep navy-gray */
+  --foreground: oklch(0.95 0.003 260); /* Warm white */
   
-  --card: oklch(0.18 0.04 240);
-  --card-foreground: oklch(0.98 0 0);
+  --card: oklch(0.16 0.015 260);
+  --card-foreground: oklch(0.95 0.003 260);
   
-  --popover: oklch(0.18 0.04 240);
-  --popover-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.16 0.015 260);
+  --popover-foreground: oklch(0.95 0.003 260);
   
-  --primary: oklch(0.65 0.16 240); /* Keep primary blue consistent */
-  --primary-foreground: oklch(1 0 0);
+  /* Primary - Brighter in dark mode for contrast */
+  --primary: oklch(0.65 0.18 255); /* Lighter blue for visibility */
+  --primary-foreground: oklch(0.13 0.015 260);
   
-  --secondary: oklch(0.22 0.04 240);
-  --secondary-foreground: oklch(0.85 0.16 240);
+  --secondary: oklch(0.20 0.015 260);
+  --secondary-foreground: oklch(0.85 0.10 255);
   
-  --muted: oklch(0.22 0 0);
-  --muted-foreground: oklch(0.65 0 0);
+  --muted: oklch(0.20 0.010 260);
+  --muted-foreground: oklch(0.60 0.005 260);
   
-  --accent: oklch(0.22 0.04 240);
-  --accent-foreground: oklch(0.85 0.16 240);
+  --accent: oklch(0.20 0.015 260);
+  --accent-foreground: oklch(0.85 0.10 255);
   
-  --destructive: oklch(0.50 0.20 20);
-  --destructive-foreground: oklch(1 0 0);
+  --success: oklch(0.60 0.18 150);
+  --success-foreground: oklch(0.13 0.015 260);
   
-  --border: oklch(0.24 0 0);
-  --input: oklch(0.24 0 0);
-  --ring: oklch(0.65 0.16 240);
+  --warning: oklch(0.70 0.16 75);
+  --warning-foreground: oklch(0.13 0.015 260);
+  
+  --destructive: oklch(0.50 0.20 15);
+  --destructive-foreground: oklch(0.13 0.015 260);
+  
+  --border: oklch(0.22 0.010 260);
+  --input: oklch(0.22 0.010 260);
+  --ring: oklch(0.65 0.18 255);
 }
 
 @theme inline {
-  --font-sans: 'Inter', 'Roboto', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-serif: var(--font-sans); /* Strip out the aggressive serifs completely */
+  /* Professional Typography System */
+  --font-sans: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace;
+  --font-display: 'Inter', 'SF Pro Display', system-ui, sans-serif;
   
+  /* Professional Color Tokens */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -96,27 +138,277 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+  
+  /* Border Radius Scale */
+  --radius-sm: calc(var(--radius) - 4px);  /* 6px */
+  --radius-md: calc(var(--radius) - 2px);  /* 8px */
+  --radius-lg: var(--radius);              /* 10px */
+  --radius-xl: calc(var(--radius) + 4px);  /* 14px */
+  --radius-2xl: calc(var(--radius) + 8px); /* 18px */
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground tracking-normal font-sans;
+  
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
-  h1, h2, h3, h4, h5, h6 {
-    /* Educational layouts use friendly, slightly tighter headings */
-    letter-spacing: -0.02em;
+  
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', 'kern';
+    letter-spacing: -0.01em;
+    line-height: 1.6;
+  }
+  
+  /* Professional Typography Hierarchy */
+  h1 {
+    @apply text-4xl lg:text-5xl xl:text-6xl;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    @apply text-2xl lg:text-3xl xl:text-4xl;
     font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    @apply text-xl lg:text-2xl;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+  }
+  
+  h4 {
+    @apply text-lg lg:text-xl;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+  }
+  
+  p {
+    @apply text-base;
+    line-height: 1.65;
+  }
+  
+  small {
+    @apply text-sm;
+    line-height: 1.5;
+  }
+  
+  /* Professional Link Styles */
+  a {
+    @apply text-primary transition-colors duration-200;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    @apply opacity-85;
+  }
+  
+  /* Focus styles for accessibility */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+  
+  /* Selection styling */
+  ::selection {
+    @apply bg-primary/20 text-foreground;
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/30;
+  }
+}
+
+/* Professional Utility Classes */
+@layer utilities {
+  /* Container widths */
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-full {
+    @apply max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Professional text utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  
+  /* Gradient text */
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent;
+  }
+  
+  /* Card hover effects */
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+  
+  .card-hover:hover {
+    @apply shadow-lg -translate-y-0.5;
+  }
+  
+  /* Professional grid backgrounds */
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(to right, oklch(0 0 0 / 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(0 0 0 / 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  
+  .dark .bg-grid-pattern {
+    background-image: 
+      linear-gradient(to right, oklch(1 0 0 / 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(1 0 0 / 0.03) 1px, transparent 1px);
+  }
+  
+  /* Glass morphism for modern UI */
+  .glass {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg;
+  }
+  
+  .glass-border {
+    @apply border border-white/20 dark:border-gray-700/30;
+  }
+}
+
+/* Professional Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes subtleScale {
+  from {
+    transform: scale(0.98);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Professional Animation Classes */
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-subtle-scale {
+  animation: subtleScale 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    @apply bg-white text-black;
+  }
+}
+
+/* Responsive Typography Adjustments */
+@media (max-width: 640px) {
+  h1 {
+    @apply text-3xl;
+    letter-spacing: -0.02em;
+  }
+  
+  h2 {
+    @apply text-xl;
+    letter-spacing: -0.015em;
+  }
+  
+  h3 {
+    @apply text-lg;
+  }
+  
+  body {
+    letter-spacing: 0;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (forced-colors: active) {
+  .border-border {
+    border-color: ButtonText;
+  }
+  
+  .bg-primary {
+    background-color: Highlight;
+  }
+  
+  .text-primary-foreground {
+    color: HighlightText;
   }
 }
